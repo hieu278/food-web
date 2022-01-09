@@ -1,0 +1,335 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto;
+    text-decoration: none;
+    list-style: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+body{
+    background-color: #f7f7f7;
+}
+header{
+    background-color: ghostwhite;
+    border-bottom:ghostwhite solid 2px ;
+    box-shadow: 0px 10px 5px 5px #807c7c; 
+    position: fixed;
+    width: 100vw;
+}
+
+header > .logo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;   
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+header > .logo > a{   
+    margin-left: 10%;
+}
+.navbar{
+    width: 1245px;
+    height:40px;
+    border: red solid 0px;   
+}
+.navbar > nav >.cha{
+    display: grid;
+    grid-template-columns: 142px 142px 142px 142px;
+    margin-left: 500px;
+}
+.navbar  >nav >.cha >.tp1{
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+.navbar > nav >.cha > .tp1:hover{
+    border: black solid 1px;
+}
+.navbar > nav >.cha > .tp1 > a:hover{
+    color: red;
+}
+.con{
+    display: none;
+    position:absolute;
+    border:black solid 1px;
+    margin-top: 10px;
+    text-align: left;
+    box-shadow: 0px 10px 5px 5px #999999;
+}
+.navbar > nav > .cha > li:hover .con{
+    display:block;
+    min-width: 90px;
+    min-height: 80px;
+    background-color: cornflowerblue;
+}
+.navbar > nav > .cha > li >.con >li{
+    border-bottom: #d3ad7f solid 2px;
+    padding: 5px 5px 5px 5px;
+}
+.navbar > nav > .cha > li >.con >li> a:hover{
+    color: black;
+    
+}
+
+
+
+/* phan home */
+
+#home{
+    height: 100vh;
+    background-image: url(home-bg.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+    width: 100%;
+    border: red solid 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.home1{
+    grid-row: 2/3;
+    border: red solid 0px;
+    display: flex;
+    align-items: center;   
+    margin-left: 10%;
+}
+.home1 > h3{
+    text-transform: uppercase;
+}
+.home2{
+    border: red solid 0px;
+    grid-row: 1/4;   
+    background-image: url(home-img.png);
+    background-repeat: no-repeat;
+   background-position-y:125px ;
+}
+
+
+
+/* phaan content */
+
+#content{
+    
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+#content > h2{
+    margin-top: 10px;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    text-align: center;
+    padding-bottom: 30px;
+    border-right:#d3ad7f solid 3px;
+    border-radius: 0px;
+    color: red;
+}
+.nd{
+    grid-column: 1/3;
+    border-right:#d3ad7f solid 3px;
+    display: grid;
+    grid-template-columns: 122px 122px 122px 122px 122px 122px 122px 122px;
+    grid-template-rows: 350px 350px;  
+    grid-gap: 20px 20px;
+}
+
+.anh{
+    width:243px;
+    height: 180px;
+}
+
+
+.ndtp1 {
+    grid-column: 2/4;   
+    line-height: 2.6;
+}
+.ndtp2{
+    grid-column: 4/6;
+    line-height: 2.6;
+}
+.ndtp3{
+    grid-column: 6/8;
+    line-height: 2.6;
+}
+.ndtp4{
+    grid-column: -8/-6;
+    line-height: 2.6;
+}
+.ndtp5{
+    grid-column: -6/-4;
+    line-height: 2.6;
+}
+
+/* phaan ndtp1 */
+.ndtp1:hover{
+    border:white solid 0.5px;
+    box-shadow: 0px 0px 5px 5px #999999;
+}
+.ndtp1 > .anh{
+    margin: auto;
+}
+.ndtp1 > div{
+    text-align: center;
+}
+.ndtp1 >div>a{
+    border: #d3ad7f solid 2px;
+    padding: 10px;
+    background-color: #d3ad7f;
+}
+.ndtp1 >div>a:hover{
+    background-color: rgb(231, 168, 86);
+    color: black;
+}
+
+/* phaan ndtp2 */
+.ndtp2:hover{
+    border:white solid 0.5px;
+    box-shadow: 0px 0px 5px 5px #999999;
+}
+.ndtp2 > .anh{
+    margin: auto;
+}
+.ndtp2 > div{
+    text-align: center;
+}
+.ndtp2 >div>a{
+    border: #d3ad7f solid 2px;
+    padding: 10px;
+    background-color: #d3ad7f;
+}
+.ndtp2 >div>a:hover{
+    background-color: rgb(231, 168, 86);
+    color: black;
+}
+
+/* phaan ndtp3 */
+.ndtp3:hover{
+    border:white solid 0.5px;
+    box-shadow: 0px 0px 5px 5px #999999;
+}
+.ndtp3 > .anh{
+    margin: auto;
+}
+.ndtp3 > div{
+    text-align: center;
+}
+.ndtp3 >div>a{
+    border: #d3ad7f solid 2px;
+    padding: 10px;
+    background-color: #d3ad7f;
+}
+.ndtp3 >div>a:hover{
+    background-color: rgb(231, 168, 86);
+    color: black;
+}
+/* phaan ndtp4 */
+.ndtp4:hover{
+    border:white solid 0.5px;
+    box-shadow: 0px 0px 5px 5px #999999;
+}
+.ndtp4 > .anh{
+    margin: auto;
+}
+.ndtp4 > div{
+    text-align: center;
+}
+.ndtp4 >div>a{
+    border: #d3ad7f solid 2px;
+    padding: 10px;
+    background-color: #d3ad7f;
+}
+.ndtp4 >div>a:hover{
+    background-color: rgb(231, 168, 86);
+    color: black;
+}
+/* phaan ndtp5 */
+.ndtp5:hover{
+    border:white solid 0.5px;
+    box-shadow: 0px 0px 5px 5px #999999;
+}
+.ndtp5 > .anh{
+    margin: auto;
+}
+.ndtp5 > div{
+    text-align: center;
+}
+.ndtp5 >div>a{
+    border: #d3ad7f solid 2px;
+    padding: 10px;
+    background-color: #d3ad7f;
+}
+.ndtp5 >div>a:hover{
+    background-color: rgb(231, 168, 86);
+    color: black;
+}
+
+
+/* phaan profile */
+#content> h3{
+    text-align: center;
+    grid-column: 3/4;
+    grid-row: -4/-3;
+    margin-top: 10px;
+    color: red;
+}
+.profile{
+    grid-column: 3/4;
+}
+ .profile > .hinh{
+    background-image: url(step-4.jpg);
+    height: 150px;
+    width: 201px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    
+}
+
+.chu > h4{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: sandybrown;
+}
+.chu > p{
+    line-height: 2.6;
+    text-align: center;
+}
+.chu > p >span{
+    font-size: 18px;
+    color: red;
+}
+
+
+
+/* phaan footer */
+#content >.cuoi{
+    margin-top: 10px;
+    grid-row: 3/4;
+    grid-column: 1/4;
+    border-top:#d3ad7f solid 1px ;
+    height: 40px;   
+}
+
+
+footer > ul{
+    display: flex;
+   justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+footer > div > p{
+    text-align: center;
+}
+footer>ul>li{
+    margin-right:10px;
+}
+footer > ul >li :hover{
+    border-bottom:#d3ad7f solid 2px ;
+}
+footer > ul > li> a:hover{
+    color: black;
+}
